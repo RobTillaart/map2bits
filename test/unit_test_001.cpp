@@ -42,29 +42,29 @@ unittest(test_constructor)
   map2bits mb;
   assertTrue(mb.init(0, 100, 10));
 
-  asserEqual(0, mb.map(-10));
-  asserEqual(0, mb.map(0));
-  asserEqual(0, mb.map(4));
-  asserEqual(1, mb.map(5));
-  asserEqual(1, mb.map(14));
-  asserEqual(3, mb.map(15));
-  asserEqual(3, mb.map(24));
-  asserEqual(7, mb.map(25));
-  asserEqual(7, mb.map(34));
-  asserEqual(15, mb.map(35));
-  asserEqual(15, mb.map(44));
-  asserEqual(31, mb.map(55));
-  asserEqual(31, mb.map(54));
-  asserEqual(63, mb.map(55));
-  asserEqual(63, mb.map(64));
-  asserEqual(127, mb.map(65));
-  asserEqual(127, mb.map(74));
-  asserEqual(255, mb.map(75));
-  asserEqual(255, mb.map(84));
-  asserEqual(511, mb.map(85));
-  asserEqual(511, mb.map(94));
-  asserEqual(1023, mb.map(10));
-  asserEqual(1023, mb.map(1000));
+  assertEqual(0, mb.map(-10));
+  assertEqual(0, mb.map(0));
+  assertEqual(0, mb.map(4));
+  assertEqual(1, mb.map(5));
+  assertEqual(1, mb.map(14));
+  assertEqual(3, mb.map(15));
+  assertEqual(3, mb.map(24));
+  assertEqual(7, mb.map(25));
+  assertEqual(7, mb.map(34));
+  assertEqual(15, mb.map(35));
+  assertEqual(15, mb.map(44));
+  assertEqual(31, mb.map(55));
+  assertEqual(31, mb.map(54));
+  assertEqual(63, mb.map(55));
+  assertEqual(63, mb.map(64));
+  assertEqual(127, mb.map(65));
+  assertEqual(127, mb.map(74));
+  assertEqual(255, mb.map(75));
+  assertEqual(255, mb.map(84));
+  assertEqual(511, mb.map(85));
+  assertEqual(511, mb.map(94));
+  assertEqual(1023, mb.map(10));
+  assertEqual(1023, mb.map(1000));
 }
 
 
