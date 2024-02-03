@@ -53,7 +53,7 @@ unittest(test_constructor)
   assertEqual(7, mb.map(34));
   assertEqual(15, mb.map(35));
   assertEqual(15, mb.map(44));
-  assertEqual(31, mb.map(55));
+  assertEqual(31, mb.map(45));
   assertEqual(31, mb.map(54));
   assertEqual(63, mb.map(55));
   assertEqual(63, mb.map(64));
