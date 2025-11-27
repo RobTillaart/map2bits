@@ -9,6 +9,7 @@
 
 #include "map2bits.h"
 
+#define MB_MAX_SIZE       (64)
 
 map2bits::map2bits()
 {
@@ -19,7 +20,7 @@ map2bits::map2bits()
 bool map2bits::init(float inMin, float inMax, uint8_t size)
 {
   float _inRange = inMax - inMin;
-  if ((_inRange <= 0.0 ) || (size > 32)) return false;
+  if ((_inRange <= 0.0 ) || (size > MB_MAX_SIZE)) return false;
 
   _outMax = size;
   _inMin = inMin;
