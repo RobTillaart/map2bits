@@ -13,6 +13,7 @@ map2bits mb;
 void setup()
 {
   Serial.begin(115200);
+  Serial.println();
   Serial.println(__FILE__);
   Serial.print("MAP2BITS_LIB_VERSION: ");
   Serial.println(MAP2BITS_LIB_VERSION);
