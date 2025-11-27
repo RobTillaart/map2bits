@@ -8,9 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1.1] - 2025-11-26
 - add map64(float) and map32() for "clean API"
-- add map16() for investigation, however almost equal in performance).
+- add map16() for investigation, (~equal in performance).
+- increased MAXSIZE to 64
+- add example map2bits_analogRead.ino
+- update readme.md - test ESP32 performance
 - update GitHub actions
-- test ESP32 performance => figures in readme.md
 - minor edits
 
 ## [0.1.0] - 2024-01-02
